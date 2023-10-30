@@ -44,7 +44,7 @@ def already_exists(e):
 
 @app.errorhandler(500)
 def internal_server_error(e):
-    return jsonify({'error': 'Internal Server Error'}), 500
+    return jsonify({'error': 'Internal Server Error. File Size exceeded'}), 500
 
 
  
