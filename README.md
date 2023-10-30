@@ -52,7 +52,7 @@ The root endpoint serves as a welcome page for the application.
 
 ## Usage
 
-To use this application, ensure you have a working MySQL database set up. Run the Flask application using `python app.py` and interact with the specified endpoints to manage users and books.
+To use this application, ensure you have a working MySQL database set up. Run the Flask application using `python project.py` and interact with the specified endpoints to manage users and books.
 
 ## Conclusion
 
