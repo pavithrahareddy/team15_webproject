@@ -15,11 +15,11 @@ from werkzeug.security import generate_password_hash, check_password_hash
 app = Flask(__name__)
 
 # Connect Flask application with the MySQL 
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Ganesha@9342'
-app.config['MYSQL_HOST'] = '127.0.0.1'
-app.config['MYSQL_DB'] = 'library'
-app.config['SECRET_KEY'] = '123456' 
+app.config['MYSQL_USER'] = 'user'
+app.config['MYSQL_PASSWORD'] = 'password'
+app.config['MYSQL_HOST'] = 'localname'
+app.config['MYSQL_DB'] = 'DBname'
+app.config['SECRET_KEY'] = 'key' 
 mysql = MySQL(app)
 
 
@@ -51,7 +51,7 @@ def internal_server_error(e):
 # Task 3: Authentication : Implement authentication using JWT Authentication.
 
 # Created a user model with username and password fields.
-users = {'pavithra': generate_password_hash('pavi1234')}
+users = {'username': generate_password_hash('password')}
 
 # Implemented a login endpoint that authenticates the user and returns a JWT token.
 @app.route('/login', methods=['POST'])
