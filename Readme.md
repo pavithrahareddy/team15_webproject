@@ -2,8 +2,8 @@
 
 This repository contains a Flask-based application that serves as a Library Management System. The system facilitates user authentication, file handling, and MySQL-based CRUD operations for book management. The code employs JWT (JSON Web Tokens) for user authentication, handles file uploads, and enables various book management services.
 
-# Project Demonstration Link
-https://drive.google.com/file/d/1Y1OgaxzfaxQvSXMaDA9CbAm63Bbej1nT/view?usp=drive_link
+# Project Demonstration Link and Screenshorts
+https://drive.google.com/drive/folders/1VBj2UlSRtcFbGIcQHUbkyRqUoF0lHSq1?usp=drive_link
 
 ## Application Setup
 
