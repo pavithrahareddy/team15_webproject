@@ -17,7 +17,7 @@ app = Flask(__name__)
 # Connect Flask application with the MySQL 
 app.config['MYSQL_USER'] = 'user'
 app.config['MYSQL_PASSWORD'] = 'password'
-app.config['MYSQL_HOST'] = 'localname'
+app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_DB'] = 'DBname'
 app.config['SECRET_KEY'] = 'key' 
 mysql = MySQL(app)
