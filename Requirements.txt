@@ -1,0 +1,6 @@
+pip install Flask
+pip install mysql-connector-python
+pip install flask-mysqldb
+pip install flask-jwt-extended
+pip install jwt
+pip install PYjwt
